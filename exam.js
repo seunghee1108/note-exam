@@ -60,3 +60,8 @@ console.log(forExam.problem1);
 forExam.problem2.filter((item) => item.includes('이'));
 
 console.log(forExam.problem2)
+
+// 3. forExam.problem3의 배열의 모든 요소를 하나의 문자열로 합치세요.
+forExam.problem3 = forExam.problem3.join('');
+
+console.log(forExam.problem3);
