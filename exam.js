@@ -103,3 +103,8 @@ const problem8 = forExam.problem8.some((item) => {
 });
 
 console.log(problem8);
+
+// 9. forExam.problem9의 배열에서 '이브이'를 추가하고, 결과를 출력하세요.
+forExam.problem9.push('이브이');
+
+console.log(forExam.problem9);
