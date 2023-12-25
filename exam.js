@@ -77,3 +77,8 @@ for(let i = 0; i < forExam.problem4.length; i++) {
 }
 
 console.log(pokemonLengths);
+
+// 5. forExam.problem5의 배열을 알파벳 순서로 정렬하세요.
+forExam.problem5.sort();
+
+console.log(forExam.problem5);
