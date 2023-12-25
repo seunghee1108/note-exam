@@ -96,3 +96,10 @@ const problem7 = forExam.problem7.every((item) => {
 });
 
 console.log(problem7);
+
+// 8. forExam.problem8의 배열 중에서 최소 하나의 포켓몬 이름이 '꼬'로 시작하는지 확인하세요.
+const problem8 = forExam.problem8.some((item) => {
+  return typeof item === 'string' && item.startsWith('꼬');
+});
+
+console.log(problem8);
