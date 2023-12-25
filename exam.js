@@ -49,3 +49,9 @@ class ForExam {
 
 let forExam = new ForExam();
 console.dir(forExam);
+
+// 1. forExam.problem1의 배열의 모든 요소를 대문자로 변환하세요.
+for (let i = 0; i < forExam.problem1.length; i++) {
+  forExam.problem1[i] = forExam.problem1[i].toUpperCase();
+}
+console.log(forExam.problem1);
