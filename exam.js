@@ -21,7 +21,7 @@ class ForExam {
     }
     
     this.problem16 = [
-      ['피카츄', '라이츄'], 
+      ['피카츄','라이츄'], 
       ['꼬부기','이브이']
     ];
 
@@ -55,3 +55,8 @@ for (let i = 0; i < forExam.problem1.length; i++) {
   forExam.problem1[i] = forExam.problem1[i].toUpperCase();
 }
 console.log(forExam.problem1);
+
+// 2. forExam.problem2의 배열에서 이름에 '이'가 포함된 포켓몬만 필터링하세요.
+forExam.problem2.filter((item) => item.includes('이'));
+
+console.log(forExam.problem2)
