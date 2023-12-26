@@ -173,3 +173,9 @@ console.log(problem20);
 const problem21 = forExam.problem21.map(pokemon => `<li>${pokemon}</li>`);
 
 console.log(problem21);
+
+// 22. forExam.problem22의 배열을 하나의 리스트(<ul>) 문자열로 합치세요.
+const problem22 = forExam.problem22.map(pokemon => `<li>${pokemon}</li>`)
+const ulString = `<ul>${forExam.problem22.join('')}</ul>`;
+
+console.log(ulString);
