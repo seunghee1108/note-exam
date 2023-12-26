@@ -131,3 +131,10 @@ if (index !== -1) {
 }
 
 console.log(forExam.problem13);
+
+// 14. forExam.problem14의 배열을 복제하고, 복제된 배열에 '이브이'를 추가하세요. 원본 배열과 복제된 배열을 출력하세요.
+const clonedArray = forExam.problem14.slice();
+clonedArray.push('이브이');
+
+console.log('원본 배열:', forExam.problem14);
+console.log('복제된 배열:', clonedArray);
