@@ -124,3 +124,10 @@ forExam.problem12.unshift();
 
 console.log(forExam.problem12);
 
+// 13. forExam.problem13의 배열에서 '라이츄'를 '이브이'로 변경하세요.
+const index = forExam.problem13.indexOf('라이츄');
+if (index !== -1) {
+  forExam.problem13.splice(index, 1, '이브이');
+}
+
+console.log(forExam.problem13);
