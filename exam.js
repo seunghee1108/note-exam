@@ -163,3 +163,8 @@ console.log(forExam.problem18)
 const problem19 = forExam.problem19.map(pokemon => pokemon.length);
 
 console.log(problem19);
+
+// 20. forExam.problem20의 배열에서 이름 길이가 3글자 이상인 포켓몬만 필터링하세요.
+const problem20 = forExam.problem20.filter((pokemon) => pokemon.length === 3)
+
+console.log(problem20);
