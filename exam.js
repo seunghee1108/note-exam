@@ -190,3 +190,8 @@ const problem24 = forExam.problem24.map(pokemon => `<option>${pokemon}</option>`
 const selectTag  = `<select>${problem24.join('')}</select>`;
 
 console.log(selectTag);
+
+// 25. forExam.problem25의 배열을 모두 포함하는 <nav> 태그를 만드세요.
+const problem25 = `<nav>${forExam.problem25.join('')}</nav>`;
+
+console.log(problem25);
