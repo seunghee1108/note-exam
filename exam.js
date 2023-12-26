@@ -145,9 +145,9 @@ const problem15 = forExam.problem15.slice(-2);
 console.log('마지막 두 요소:', problem15);
 
 // 16. forExam.problem16의 두 배열을 하나의 배열로 합치세요.
-const problem16 = forExam.problem16.concat();
+forExam.problem16.concat();
 
-console.log(problem16);
+console.log(forExam.problem16);
 
 // 17. forExam.problem17의 배열에서 '라이츄'를 찾아 그 인덱스를 출력하세요.
 const problem17 = forExam.problem17.indexOf('라이츄');
