@@ -184,3 +184,9 @@ console.log(ulString);
 const problem23 = forExam.problem23.filter(pokemon => pokemon.includes('지우'));
 
 console.log(problem23);
+
+// 24. forExam.problem24의 배열의 각 요소를 <option> 태그로 감싸고, 전체를 <select> 태그로 감싸세요.
+const problem24 = forExam.problem24.map(pokemon => `<option>${pokemon}</option>`);
+const selectTag  = `<select>${problem24.join('')}</select>`;
+
+console.log(selectTag);
