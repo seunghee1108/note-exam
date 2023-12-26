@@ -179,3 +179,8 @@ const problem22 = forExam.problem22.map(pokemon => `<li>${pokemon}</li>`)
 const ulString = `<ul>${forExam.problem22.join('')}</ul>`;
 
 console.log(ulString);
+
+// 23. forExam.problem23의 배열에서 '지우'가 포함된 태그만 필터링하세요.
+const problem23 = forExam.problem23.filter(pokemon => pokemon.includes('지우'));
+
+console.log(problem23);
