@@ -158,3 +158,8 @@ console.log(problem17);
 forExam.problem18.reverse();
 
 console.log(forExam.problem18)
+
+// 19. forExam.problem19의 배열에서 각 포켓몬의 이름 길이를 배열로 만드세요.
+const problem19 = forExam.problem19.map(pokemon => pokemon.length);
+
+console.log(problem19);
