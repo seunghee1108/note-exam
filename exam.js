@@ -153,3 +153,8 @@ console.log(problem16);
 const problem17 = forExam.problem17.indexOf('라이츄');
 
 console.log(problem17);
+
+// 18. forExam.problem18의 배열을 거꾸로 순서를 뒤집어 출력하세요.
+forExam.problem18.reverse();
+
+console.log(forExam.problem18)
