@@ -138,3 +138,8 @@ clonedArray.push('이브이');
 
 console.log('원본 배열:', forExam.problem14);
 console.log('복제된 배열:', clonedArray);
+
+// 15. forExam.problem15의 배열에서 마지막 두 요소만 가져오세요.
+const problem15 = forExam.problem15.slice(-2);
+
+console.log('마지막 두 요소:', problem15);
