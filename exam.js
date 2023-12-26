@@ -168,3 +168,8 @@ console.log(problem19);
 const problem20 = forExam.problem20.filter((pokemon) => pokemon.length === 3)
 
 console.log(problem20);
+
+// 21. forExam.problem21의 배열의 각 요소를 리스트 아이템(<li>)으로 변환하세요.
+const problem21 = forExam.problem21.map(pokemon => `<li>${pokemon}</li>`);
+
+console.log(problem21);
