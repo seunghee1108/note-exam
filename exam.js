@@ -203,6 +203,6 @@ const articleTag  = `<article>${problem26.join('')}</article>`;
 console.log(articleTag);
 
 // 27. forExam.problem27의 배열의 모든 <li> 태그를 <ol> 태그로 감싸세요.
-const olTag  = `<ol>${problem21.join('')}</ol>`;
+const olTag  = forExam.problem27.map((item) => `<ol>${item}</ol>`);
 
 console.log(olTag);
