@@ -195,3 +195,9 @@ console.log(selectTag);
 const problem25 = `<nav>${forExam.problem25.join('')}</nav>`;
 
 console.log(problem25);
+
+// 26. forExam.problem26의 배열의 각 요소를 <section> 태그로 감싸고, 전체를 <article> 태그로 감싸세요.
+const problem26 = forExam.problem26.map(pokemon => `<section>${pokemon}</section>`);
+const articleTag  = `<article>${problem26.join('')}</article>`;
+
+console.log(articleTag);
