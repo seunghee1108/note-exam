@@ -216,3 +216,8 @@ console.log(problem28);
 const footerTag  = `<footer>${forExam.problem29}</footer>`;
 
 console.log(footerTag);
+
+// 30. forExam.problem30의 배열을 하나의 HTML 문자열로 병합한 후, 전체를 <div> 태그로 감싸세요.
+const divTag  = `<div>${forExam.problem30}</div>`;
+
+console.log(divTag);
